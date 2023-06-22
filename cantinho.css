@@ -546,4 +546,58 @@ h1{
     bottom: calc(var(--height) + var(--gap-between-tooltip-to-button));
   }
   
-  
+
+ul{
+    width: 20em; 
+    margin-left: auto;
+    list-style: none;   
+}
+ul li{
+    float: left; 
+    background-color: var(--color-black2);
+    position: relative; 
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;     
+}
+ul li a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--color-black2);
+    border-radius: 10px;     
+}
+ul li:hover > a{ 
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+
+ul li ul{
+    display: none;
+    position: absolute;
+}
+
+ul li:hover ul{ 
+    width: 180px; 
+    display: block; 
+}
+ul li ul li{
+    width: 120px;
+    cursor: pointer;
+}
+ul li ul li:hover > a{
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+ul li ul li ul li{
+    display: none;
+    border: none;
+}
+
+ul li ul li ul{
+    top: 3em; 
+}
+ul li ul li:hover ul li{
+    display: block;
+    width: 150px;
+    left: 100%; 
+}
