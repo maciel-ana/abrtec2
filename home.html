@@ -7,104 +7,100 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src='main.js'></script>
-    <link rel="icon" type="image/x-icon" href="imagens/logo.png"> 
+    <link rel="shortcut icon" href="imagens/logo.png">
 </head>
 <body>
-    <header class="header">
-        <img src="imagens/logo.png" class="logo">
-        <nav class="navbar">
-            <a href="#home" class="active" id="home">HOME</a>
-            <a href="#produtos">PRODUTOS</a>
-            <a href="#sobre">SOBRE</a>
-            <img src="imagens/lupa.png" class="lupa">
-        </nav>
-
-        </header>
-        <div class="fundo"></div>
-    <h1>CANTINHO</h1>
-    <h2>DO &lt;DEV&gt;</h2>
-    
-    <div class="cantinho">
-        <img src="imagens/cantinhodev.png" class="computador">
-    </div>
-    
-    <div>
-        <button class="meubotao" type="submit">SAIBA MAIS</button>
-    </div>
-
-    <div class="retangulo"></div>
-    <div class="square">
-        <img src="imagens/fone.png" class="fone">
-        <button class="meubotao2" type="submit">VER MAIS</button>
-        
-    </div>
-    <p class="phone">HEADSETS</p>
-    <div class="square2">
-        <img src="imagens/computador.png" class="computadores">
-        <button class="meubotao3" type="submit">VER MAIS</button>
+    <div class="header" id="header">
+        <div class="logoheader">
+            <a href="#"><img src="imagens/logo.png" alt="logoabr" class="img_logo_header"></a>
         </div>
-    <p class="computer">COMPUTADORES</p>
-    <div class="square3">
-        <img src="imagens/celulares.png" class="celulares">
-        <button class="meubotao4" type="submit">VER MAIS</button>
-    </div>
-    <p class="smartphones">SMARTPHONES</p>
-    <div class="square4">
-        <img src="imagens/tv.png" class="tvs">
-        <button class="meubotao5" type="submit">VER MAIS</button>
-    </div>
-    <p class="televisions">TVS</p>
-            <div class="wrapper">
-              <div class="content">
-                <!-- Conteúdo principal da página -->
-              </div>
-              <footer class="footer">
-                <!-- Conteúdo do footer -->
-                <footer class="footer">
-                <div class="div1">
-            <ul>
-                <li> <a href="#" class="suporte">Suporte</a></li>
-                <br>
-                <li><a href="#" class="contato">Contato Online</a></li>
-                <br>
-                <li><a href="#" class="ondecomprar">Onde Comprar</a></li>
-        </ul>
-            
+        <div class="navgation_header">
+            <a href="#" class="active">HOME</a>
+            <a href="#">PRODUTOS</a>
+            <a href="#">SOBRE</a>
         </div>
-       <div class="div2">
+        <div class="search-box">
+            <input type="text" class="search-text" placeholder="Pesquisar">
+            <a href="#" class="search-button">
+                <img src="imagens/lupa2.png" alt="Lupa" height="20" width="20">
+            </a>
+        </div>
+        <div class="entradas" alt="Carrinho">
+            <a href="#"><img src="imagens/carrinho.jpg" id="carrinho-header"></a>
+            <a href="#"><img src="imagens/login.png" id="login-header"></a>
+        </div>
+    </div>
+</div>
+        <div class="fundo" alt="fundo"></div>
+        <div class="cantinho-do-dev">
+            <h1>CANTINHO</h1>
+            <h2>DO &lt;DEV&gt;</h2>
+            <a href="#"><button class="btn">SAIBA MAIS</button></a>
+        </div>
+        <div class="container">
+            <img src="imagens/cantinhodev.png" class="img-cantinhodev">
+        </div>
+        <div class="retangulo"></div>
+        <div class="container">
+            <div class="quadrado">
+                <img src="imagens/fone.png" class="fone">
+             </div>
+            <button class="btn-fone">VER MAIS</button>
+            <div class="quadrado">
+                <img src="imagens/computador.png" class="computador">
+            </div>
+            <button class="btn-computador">VER MAIS</button>
+            <div class="quadrado">
+                <img src="imagens/celular.png" class="celular">
+            </div>
+            <button class="btn-celular">VER MAIS</button>
+            <div class="quadrado">
+                <img src="imagens/tvs.png" class="tvs">
+            </div>
+            <button class="btn-tvs">VER MAIS</button>
+          </div>
+           <footer class="footer">
+            <div class="div1">
         <ul>
-            <li><a href="#" class="produtos">Todos os produtos</a></li>
+            <li> <a href="#" class="suporte">Suporte</a></li>
             <br>
-            <li><a href="#" class="nossosprodutos">Nossos Produtos</a></li>
+            <li><a href="#" class="contato">Contato Online</a></li>
             <br>
-            <li><a href="#" class="iphone">Iphone</a></li>
-            <br>
-            <li><a href="#" class="samsung">Samsung</a></li>
-            <br>
-            <li><a href="#" class="xiaomi">Xiaomi</a></li>
-        </ul>
-            
-       </div>
-       <div class="div3">
-        <ul>
-            <li><a href="#" class="sobre">Sobre Nós</a></li>
-            <br>
-            <li><a href="#" class="abrtec">ABR TEC</a></li>
-            <br>
-            <li><a href="#" class="politica">Política de Privacidade</a></li>
-            
-        </ul>
-            
-     </div>
-        <div class="div4">
-            <li><a href="#" class="redes">Redes Sociais</a></li>
-            <a href="#"><img src="imagens/facebook.png" class="facebook"></a>
-            <a href="#"><img src="imagens/instagram.png" class="instagram"></a>
-            <a href="#"><img src="imagens/twitter.png" class="twitter"></a>
-        </div>
+            <li><a href="#" class="ondecomprar">Onde Comprar</a></li>
+    </ul>
         
+    </div>
+   <div class="div2">
+    <ul>
+        <li><a href="#" class="produtos">Todos os produtos</a></li>
+        <br>
+        <li><a href="#" class="nossosprodutos">Nossos Produtos</a></li>
+        <br>
+        <li><a href="#" class="iphone">Iphone</a></li>
+        <br>
+        <li><a href="#" class="samsung">Samsung</a></li>
+        <br>
+        <li><a href="#" class="xiaomi">Xiaomi</a></li>
+    </ul>
         
-    </footer>  
+   </div>
+   <div class="div3">
+    <ul>
+        <li><a href="#" class="sobre">Sobre Nós</a></li>
+        <br>
+        <li><a href="#" class="abrtec">ABR TEC</a></li>
+        <br>
+        <li><a href="#" class="politica">Política de Privacidade</a></li>
+        
+    </ul>
+        
+ </div>
+    <div class="div4">
+        <li><a href="#" class="redes">Tenha acesso ao nosso instragram</a></li>
+        <a href="https://www.instagram.com/abr.tec_/"><img src="imagens/instagram.png" class="instagram"></a>
+        <a href="https://www.instagram.com/abr.tec_/"><p class="abrinsta">@abrt.tec_</p></a>
+    </div>
+</footer>  
+          
 </body>
-
-</html>
+</html></html>
