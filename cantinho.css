@@ -142,13 +142,13 @@ h1{
 }
 
 .quadrado{
-    width: 19em;
-    height: 25em;
+    width: 23em;
+    height: 28em;
     background-color: var(--color-white2);
     display: inline-flex;
     border-radius: 10px;
     margin-top: 2%;
-    margin-left: 10%;
+    margin-left: 7%;
 }
 
 .quadrado2{
@@ -213,12 +213,14 @@ h1{
 }
 #fone2{
     width: 20em;
+    margin-top: -24%;
+    position: absolute;
 }
 
 #fone2-text{
     color: var(--color-black);
     margin-left: 2em;
-    margin-top: -7em;
+    margin-top: -5em;
 }
 #computador-venda{
     display: flex;
@@ -247,7 +249,7 @@ h1{
     font-family: 'Montserrat', sans-serif;
     flex-direction: column;
     margin-top: -28%;
-    margin-left: 23em;
+    margin-left: 25em;
     font-weight: bolder;
 }
 
@@ -255,7 +257,7 @@ h1{
     color: var(--color-blue2);
     font-size: 3em;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 6.5em;
+    margin-left: 7em;
     margin-top: 3%;
 }
 
@@ -332,7 +334,7 @@ h1{
     --gap-between-tooltip-to-button: 18px;
     --button-color: #222;
     --tooltip-color: #fff;
-    width: 220em;
+    width: 1000%;
     height: 2em;
     background: var(--button-color);
     position: relative;
