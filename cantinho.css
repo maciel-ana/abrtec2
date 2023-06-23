@@ -29,8 +29,8 @@ body{
 }
 
 .img_logo_header{
-  width: 100px;
-  margin-left: -22em;
+  width: 120px;
+  margin-left: -20em;
 }
 
 .header,
@@ -158,7 +158,7 @@ h1{
     display: inline-flex;
     margin-left: -10em;
     border-radius: 10px;
-    margin-top: -35%;
+    margin-top: -38%;
     margin-right: 35%;
     float: right;
 }
@@ -169,7 +169,7 @@ h1{
     height: 18em;
     border-radius: 10px;
     margin-right: 2em;
-    margin-top: -27.5em;
+    margin-top: -30em;
     float: right;
 }
 
@@ -213,7 +213,7 @@ h1{
 }
 #fone2{
     width: 20em;
-    margin-top: -24%;
+    margin-top: -26%;
     position: absolute;
 }
 
