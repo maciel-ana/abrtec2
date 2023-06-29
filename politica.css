@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Raleway:wght@100&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Open+Sans:wght@300&family=Raleway:wght@100&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Open+Sans:wght@300&family=Press+Start+2P&family=Raleway:wght@100&family=Roboto+Mono:wght@300&display=swap');
+
+:root{
+  --color-white: #ffffff;
+  --color-purple:#800BFF;
+  --color-blue: #001020;
+  --color-beige: #D9D9D9;
+  --color-black:#000000;
+  --color-dark3: #414141;
+  --color-white2: #D9D9D9;
+  --color-gray:#696969;
+  --color-black2: #2C2C2C;
+}
+
+body{
+    
+}
+*{
+  margin: 0;
+  padding:0;
+}
+
+
+.img_logo_header{
+  width: 130px;
+  margin-left: -23em;
+}
+
+.header,
+.navgation_header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header{
+  background-color: var(--color-blue);
+  box-shadow: 1px 1px 4px var(--color-blue);
+  height: 4.5em;
+  justify-content: space-evenly;
+  padding: 0 20%;
+}
+.navgation_header{
+  gap: 4em;
+  margin-left: 4em;
+}
+
+.navgation_header a{
+  text-decoration: none;
+  color: var(--color-white);
+  transition: 1s;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navgation_header a:hover{
+  color: var(--color-purple);
+}
+.active{
+  background-color: var(--color-dark3);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.search-box{
+  position: absolute;
+  top: 3%;
+  left: 20%;
+  background: var(--color-dark3);
+  height: 25px;
+  padding: 10px ;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-text{
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0;
+  color: var(--color-white);
+  font-size: 12px;
+  line-height: 30px;
+  width: 0;
+  transition: 0.2s;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.search-button{
+  width: 30px;
+  height: 30px;
+  border-radius: 40%;
+  background: var(--color-dark3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .6s;
+}
+
+.search-box:hover > .search-text{
+  width: 240px;
+  transition: 3s;
+  padding: 0 6px;
+}
+.search-box:hover > .search-button{
+  background: var(--color-beige);
+}
+
+.entradas,
+#carrinho-header,
+#login-header{
+  display: flex;
+  justify-content: space-between;
+  width: 30px;
+  margin-right: -30%;
+}
+
+.entradas{
+  gap: 2em;
+}
+
+.fundo{
+  width: 100%;
+  background-image: url("imagens/fundo.jpeg");
+  background-size: contain;
+  position: none;
+  top: 12,5em;
+  left: 6.3em;
+  width: 100%;
+  height: 25em;
+}
+.footer {
+  width: 100%;
+  height: 15em; 
+  background-color: #D9D9D9;
+  margin-top: 6em;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.div1,.div2,.div3,.div4{
+  width: 50%;
+  float: left;
+  margin-left: 3em;
+  margin-top: 3em;
+}
+
+.instagram{
+  width: 1.5em;
+  padding: 2em;
+}
+.contato{
+  text-decoration: none;
+  color: #696969;
+}
+
+li{
+    list-style: none;
+}
+.ondecomprar,
+.nossosprodutos,
+.iphone,
+.samsung,
+.xiaomi,
+.politica,
+.abrtec{
+  text-decoration: none;
+  color: var(--color-gray);
+}
+
+.suporte,
+.produtos,
+.sobre,
+.redes{
+  color: var(--color-black);
+  text-decoration: none;
+  font-weight: Arial, Helvetica, sans-serif;;
+}
+.abrinsta{
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: -3.5em;
+  margin-left: 5em;
+}
+
+h1{
+    text-align:center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+b{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+
+}
