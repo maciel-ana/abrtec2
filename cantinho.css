@@ -224,8 +224,8 @@ h1{
     margin-top: -5em;
 }
 #computador-venda{
-    display: flex;
-    width: 40em;
+    /* display: flex; */
+    width: 20em;
     height: 14em;
     margin-left: -1em;
     margin-top: -2em;
@@ -234,9 +234,11 @@ h1{
 #computador-venda-text{
     color: var(--color-black);
     margin-left: -20em;
-    margin-top: 52%;
-    width: 1000%;
-    text-align: center;
+    margin-top: 53%;
+}
+.note{
+  margin-top: 60%;
+  margin-left: 11%;
 }
 .camisas{
     margin-left: -8%;
@@ -365,7 +367,7 @@ h1{
     --gap-between-tooltip-to-button: 18px;
     --button-color: #222;
     --tooltip-color: #fff;
-    width: 1000%;
+    width: 80%;
     height: 2em;
     background: var(--button-color);
     position: relative;
